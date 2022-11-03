@@ -10,7 +10,7 @@ export default function MainPage(){
         </Link>
         <Link title="method2" className="link" to ={"method2"}>
             method2
-        </Link>
+        </Link> 
     </>
     )
 }
