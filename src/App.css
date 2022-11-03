@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: lightblue;
+}
+.link {
+  margin:16px;
+  text-decoration: none;
+  padding: 16px;
+  background-color: lightsalmon;
+  border-radius: 8px;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+  min-width: 90px;
+  display: inline-block;
+}
+.link:hover {
+  font-weight: bold;
+  background-color: rgb(244, 123, 76);
+}
+h1 {
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+.input , .select {
+  border: 1px solid #333;
+  padding: 0 8px;
+  border-radius: .3em;
+  width: 100px;
+  height:30px;
+  line-height:30px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 16px;
+  text-align: center;
+
+}
+label {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  padding-left: 32px ;
+  color: #757088; 
+}
+.input__wrapper {
+  font-size: 16px;
+  line-height: 2;
+  display: inline-block;
+  width: 25%;
+
+}
+select {
+  margin-left: .5rem;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.switch {
+  padding: 5px;
+  margin-top: 25px;
+  background-color: rgb(226, 252, 184);
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 16px;
+}
+.result {
+  font-weight: bold;
+  font-size: 24px;
+}
