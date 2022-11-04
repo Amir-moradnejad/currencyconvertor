@@ -4,7 +4,7 @@ import CurrencyRow from "./currency-row";
 import Ipapi from "../components/common/detect-currency";
 import { handleError } from "../components/utility";
 
-export default function Exhange(){
+export default function Exchange(){
     const [currencyOptions, setCurrencyOptions] = useState({})
     const [tocurrencyOptions, setToCurrencyOptions] = useState({})
     const [fromCurrency, setFromCurrency] = useState("usd")

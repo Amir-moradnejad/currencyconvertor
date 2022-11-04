@@ -1,9 +1,9 @@
 import React from 'react';
 import MainPage from './exchange/mainpage';
 import { BrowserRouter as Router , Routes, Route  } from 'react-router-dom';
-import Method1 from './exchange/method1/change';
-import Method2 from './exchange/method2/exchange';
-import './App.css';
+import Chanege from './exchange/method1/change';
+import Exchnage from './exchange/method2/exchange';
+import './app.css';
 
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
     <Router>
       <Routes>
           <Route path='/' element={<MainPage/>} />
-          <Route  path='method1'  element={<Method1/>}/>
-          <Route  path='method2'  element={<Method2/>}/>
+          <Route  path='method1'  element={<Chanege/>}/>
+          <Route  path='method2'  element={<Exchnage/>}/>
 
       </Routes>
     </Router>  
