@@ -3,7 +3,7 @@ import MainPage from './exchange/mainpage';
 import { BrowserRouter as Router , Routes, Route  } from 'react-router-dom';
 import Chanege from './exchange/method1/change';
 import Exchnage from './exchange/method2/exchange';
-import './app.css';
+import './App.css';
 
 
 function App() {
