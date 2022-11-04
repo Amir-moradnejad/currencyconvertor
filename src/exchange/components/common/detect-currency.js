@@ -1,5 +1,5 @@
 
-import UseFetch from "./usefetch";
+import UseFetch from "./useFetch";
 import { loading , handleError } from "../utility";
 
 export default function Ipapi(callback){
